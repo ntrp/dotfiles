@@ -1,0 +1,28 @@
+[user]
+	email = ivan.g.ortolan@gmail.com
+	name = Ivan Greguric Ortolan
+
+[alias]
+	p = pull
+ 	pr = pull --rebase
+	pu = push
+	co = checkout
+	ci = commit
+	s = status
+	br = checkout -b
+	st  = stash
+	sp = stash pop
+	sl = stash list
+	l = log --graph --pretty=format:'%C(white)%h%Creset %C(cyan)(%ar)%Creset %s %C(yellow)%d%Creset %C(bold blue)<%an>%Creset' --date=short
+
+[core]
+	editor = nvim
+	pager = less -S
+[pull]
+	rebase = true
+[commit]
+	gpgsign = true
+[init]
+	defaultBranch = main
+[github]
+	user = ntrp
